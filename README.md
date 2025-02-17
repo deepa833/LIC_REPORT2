@@ -61,6 +61,9 @@ Vin was chosen as 0.8V, within the saturation region.
 
 1.  MOSFET dimensions effectively control Id.
 2.  VTC curve facilitated appropriate Vin selection (0.8V).
-3.  M2 width has a more significant impact on Id compared to M1.
-4.  Design-2 performed as expected.
+3.  M3 width has a more significant impact on Id compared to M1.
+4.  Design-2 performed as Excpected.
+
+### Conclusion
+The CMOS circuit simulated in LTspice functions as an amplifier, operating in the saturation region with stable gain , phase shift and transient response . the observed voltage gain and output characteristics validate its use in low power amplification applications . Futher analysis , such as determining cutoff such as determing cutoff frequency and bandwidth , will help optimize the circuite for specific design requirements.
 
